@@ -15,7 +15,7 @@ The Password Generator is a simple web application that allows users to generate
 
 ## Usage
 
-*Link* :
+*Link* : https://codesaadumair.github.io/Password-Generator/
 
 - Enter a Custom Length: Input the desired length of the password in the text field labeled "Enter Custom Length." The minimum length is 4 characters.
 
