@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a</h1>
+
+      <h1><span>Random Password</span></h1>
+
+      <input
+        type="number"
+        name="len"
+        id="len"
+        placeholder="Enter Custom Length"
+        min="4"
+      />
+
+      <div class="field">
+        <input type="text" id="ip" name="ip" placeholder="Password" readonly />
+        <label for="ip">
+          <img src="copy.png" alt="Copy" onclick="copyPassword()" />
+        </label>
+      </div>
+
+      <div class="btn">
+        <button onclick="generatePassword()">
+          <img src="generate.png" alt="Generate" />Generate Password
+        </button>
+
+        <button onclick="togglePassword()">Show/Hide Password</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
